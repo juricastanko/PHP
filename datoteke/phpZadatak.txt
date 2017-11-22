@@ -1,0 +1,11 @@
+1.	Zadatak citanje_pisanje_datoteke
+Napraviti index.html datoteku u kojoj će biti unos:
+-	Ime,
+-	Prezime,
+-	Adresa stanovanja,
+-	Mjesto stanovanja,
+-	Broj telefona
+te predati skripti obrada.php sva polja pomoću POST metode. Podaci trebaju biti zapisani u Osoba.txt datoteku.
+Ispis trenutno upisanih podataka treba biti u skripti obrada.php
+Ispis svih podataka postaviti u stranici ispis.php koja će imati tablici i predefinirana polja Ime, Prezime, Adresa stanovanja, Mjesto stanovanja i Broj telefona koja će se popuniti iz Osoba.txt datoteke.
+Sa stranice ispisa treba biti link na stanice unosa tj. index.html
