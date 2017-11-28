@@ -18,6 +18,17 @@ echo"<tr align='center'>";
 
   };
 echo"</tr></table>"
+   
+$brojac = 0;
+while ($redak = fgets($datoteka2, 100)){
+    if($brojac == 5){
+        $brojac = 0;
+        echo "</tr><tr>";
+    }
+    $brojac++;
+    echo ("<td>" .
+          $redak . 
+          "</td>");
 
 
 
